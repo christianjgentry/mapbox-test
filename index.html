@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!--This is a test website by Christian Gentry -->
+	<head>
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+		<link href="./css/style.css" type="text/css" rel="stylesheet">
+	</head>
+
+	
+	<body>
+
+		<header>
+		</header>
+
+		<content>
+			<div id='map' style='width: 1200px; height: 900px;'></div>
+			<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoiY2hyaXN0aWFuamdlbnRyeSIsImEiOiJjamZzb29iYnIydGR6MzNtazI0d3I1dzZtIn0.qqvEuDCZmViCEyDTXI2w-Q';
+			var map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/christianjgentry/cjfsp7rpj7bxy2rquu6g3qdy6'
+			});
+			</script>
+		</content>
+	</body>
+
+</html>

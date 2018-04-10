@@ -1,0 +1,19 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1200px 1fr;
+	grid-template-rows: 80px 1fr 80px;
+	grid-template-areas: "header, header, header"
+						 "., map, ."
+						 "footer, footer, footer";
+}
+
+header {
+
+}
+
+content #map {
+	grid-area: map;
+}
